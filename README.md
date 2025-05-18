@@ -26,6 +26,7 @@
 
 ```bash
 python main.py <project_name> <start_date> [--end-date <end_date>]
+```
 
 ## 🔐 PrivateなScrapboxにアクセスする場合
 
@@ -35,5 +36,5 @@ python main.py <project_name> <start_date> [--end-date <end_date>]
 ```bash
 export SB_COOKIE_ID=connect.sid
 export SB_COOKIE_VALUE=your-fancy-cookie
-
+```
 
