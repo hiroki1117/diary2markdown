@@ -26,3 +26,14 @@
 
 ```bash
 python main.py <project_name> <start_date> [--end-date <end_date>]
+
+## 🔐 PrivateなScrapboxにアクセスする場合
+
+**Privateプロジェクト**のページを取得するには、Scrapboxのセッションクッキーを環境変数として設定する必要があります。
+[mamezou-tech/sbgraph: Fetch Scrapbox project data and visualize activities.](https://github.com/mamezou-tech/sbgraph)
+
+```bash
+export SB_COOKIE_ID=connect.sid
+export SB_COOKIE_VALUE=your-fancy-cookie
+
+
